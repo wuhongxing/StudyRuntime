@@ -13,9 +13,23 @@
 
 @implementation AppDelegate
 
+struct Stu {
+    int age;
+    const char *name;
+};
+
+typedef struct Stu Stu;
+typedef struct Stu *ptrStu;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    struct Stu stu = {.age = 10, .name = "123"};
+//    NSLog(@"%d - %s", stu.age, stu.name);
+//    struct Stu stu = { .age = 10, .name = "123" };
+//    ptrStu ptrStu = &stu;
+//    ptrStu->age = 20;
+//    ptrStu->name = "456";
+//    NSLog(@"%d %s", stu.age, stu.name);
     return YES;
 }
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4BE16C2764F413000A2DEB /* APIUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4BE16B2764F413000A2DEB /* APIUse.m */; };
+		1B4BE17227650291000A2DEB /* APIUse+Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4BE17127650291000A2DEB /* APIUse+Associate.m */; };
+		1B4BE17627657B39000A2DEB /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4BE17527657B39000A2DEB /* UIViewController+Swizzling.m */; };
+		1B4BE179276580B3000A2DEB /* Father+loadInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4BE178276580B3000A2DEB /* Father+loadInitialize.m */; };
+		1B4BE17C276580C4000A2DEB /* Son+loadInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4BE17B276580C4000A2DEB /* Son+loadInitialize.m */; };
+		1B94C25B276B8090009835CC /* KVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C25A276B8090009835CC /* KVC.m */; };
 		1BE9626C27610AEC0056406F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9626B27610AEC0056406F /* AppDelegate.m */; };
 		1BE9626F27610AEC0056406F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9626E27610AEC0056406F /* SceneDelegate.m */; };
 		1BE9627227610AEC0056406F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9627127610AEC0056406F /* ViewController.m */; };
@@ -17,6 +23,11 @@
 		1BE9628727610AEE0056406F /* StudyRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9628627610AEE0056406F /* StudyRuntimeTests.m */; };
 		1BE9629127610AEE0056406F /* StudyRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9629027610AEE0056406F /* StudyRuntimeUITests.m */; };
 		1BE9629327610AEE0056406F /* StudyRuntimeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9629227610AEE0056406F /* StudyRuntimeUITestsLaunchTests.m */; };
+		1BE962A1276193330056406F /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE962A0276193330056406F /* Father.m */; };
+		1BE962A42761933C0056406F /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE962A32761933C0056406F /* Son.m */; };
+		1BE962A72762DFEF0056406F /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE962A62762DFEF0056406F /* Animal.m */; };
+		1BE962AA2762E3640056406F /* NSObject+Love.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE962A92762E3640056406F /* NSObject+Love.m */; };
+		1BE962AE2762FA130056406F /* NSObject+HXKeyValueObserverRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE962AD2762FA130056406F /* NSObject+HXKeyValueObserverRegistration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B4BE16A2764F413000A2DEB /* APIUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIUse.h; sourceTree = "<group>"; };
+		1B4BE16B2764F413000A2DEB /* APIUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIUse.m; sourceTree = "<group>"; };
+		1B4BE17027650291000A2DEB /* APIUse+Associate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIUse+Associate.h"; sourceTree = "<group>"; };
+		1B4BE17127650291000A2DEB /* APIUse+Associate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "APIUse+Associate.m"; sourceTree = "<group>"; };
+		1B4BE17427657B39000A2DEB /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		1B4BE17527657B39000A2DEB /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		1B4BE177276580B3000A2DEB /* Father+loadInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Father+loadInitialize.h"; sourceTree = "<group>"; };
+		1B4BE178276580B3000A2DEB /* Father+loadInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Father+loadInitialize.m"; sourceTree = "<group>"; };
+		1B4BE17A276580C4000A2DEB /* Son+loadInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Son+loadInitialize.h"; sourceTree = "<group>"; };
+		1B4BE17B276580C4000A2DEB /* Son+loadInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Son+loadInitialize.m"; sourceTree = "<group>"; };
+		1B94C259276B8090009835CC /* KVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVC.h; sourceTree = "<group>"; };
+		1B94C25A276B8090009835CC /* KVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC.m; sourceTree = "<group>"; };
 		1BE9626727610AEC0056406F /* StudyRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE9626A27610AEC0056406F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BE9626B27610AEC0056406F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +77,16 @@
 		1BE9628C27610AEE0056406F /* StudyRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE9629027610AEE0056406F /* StudyRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyRuntimeUITests.m; sourceTree = "<group>"; };
 		1BE9629227610AEE0056406F /* StudyRuntimeUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyRuntimeUITestsLaunchTests.m; sourceTree = "<group>"; };
+		1BE9629F276193330056406F /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		1BE962A0276193330056406F /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		1BE962A22761933C0056406F /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		1BE962A32761933C0056406F /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		1BE962A52762DFEF0056406F /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		1BE962A62762DFEF0056406F /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		1BE962A82762E3640056406F /* NSObject+Love.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Love.h"; sourceTree = "<group>"; };
+		1BE962A92762E3640056406F /* NSObject+Love.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Love.m"; sourceTree = "<group>"; };
+		1BE962AC2762FA130056406F /* NSObject+HXKeyValueObserverRegistration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HXKeyValueObserverRegistration.h"; sourceTree = "<group>"; };
+		1BE962AD2762FA130056406F /* NSObject+HXKeyValueObserverRegistration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HXKeyValueObserverRegistration.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +114,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B4BE1692764F400000A2DEB /* APIUse */ = {
+			isa = PBXGroup;
+			children = (
+				1B4BE16A2764F413000A2DEB /* APIUse.h */,
+				1B4BE16B2764F413000A2DEB /* APIUse.m */,
+				1B4BE17027650291000A2DEB /* APIUse+Associate.h */,
+				1B4BE17127650291000A2DEB /* APIUse+Associate.m */,
+			);
+			path = APIUse;
+			sourceTree = "<group>";
+		};
+		1B4BE17327657B0E000A2DEB /* MethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				1B4BE17427657B39000A2DEB /* UIViewController+Swizzling.h */,
+				1B4BE17527657B39000A2DEB /* UIViewController+Swizzling.m */,
+			);
+			path = MethodSwizzling;
+			sourceTree = "<group>";
+		};
+		1B94C258276B8077009835CC /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				1B94C259276B8090009835CC /* KVC.h */,
+				1B94C25A276B8090009835CC /* KVC.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
 		1BE9625E27610AEC0056406F = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +166,10 @@
 		1BE9626927610AEC0056406F /* StudyRuntime */ = {
 			isa = PBXGroup;
 			children = (
+				1B94C258276B8077009835CC /* KVC */,
+				1B4BE17327657B0E000A2DEB /* MethodSwizzling */,
+				1B4BE1692764F400000A2DEB /* APIUse */,
+				1BE962AB2762F8CA0056406F /* KVO */,
 				1BE9626A27610AEC0056406F /* AppDelegate.h */,
 				1BE9626B27610AEC0056406F /* AppDelegate.m */,
 				1BE9626D27610AEC0056406F /* SceneDelegate.h */,
@@ -115,6 +181,18 @@
 				1BE9627827610AEE0056406F /* LaunchScreen.storyboard */,
 				1BE9627B27610AEE0056406F /* Info.plist */,
 				1BE9627C27610AEE0056406F /* main.m */,
+				1BE9629F276193330056406F /* Father.h */,
+				1BE962A0276193330056406F /* Father.m */,
+				1BE962A22761933C0056406F /* Son.h */,
+				1BE962A32761933C0056406F /* Son.m */,
+				1BE962A52762DFEF0056406F /* Animal.h */,
+				1BE962A62762DFEF0056406F /* Animal.m */,
+				1BE962A82762E3640056406F /* NSObject+Love.h */,
+				1BE962A92762E3640056406F /* NSObject+Love.m */,
+				1B4BE177276580B3000A2DEB /* Father+loadInitialize.h */,
+				1B4BE178276580B3000A2DEB /* Father+loadInitialize.m */,
+				1B4BE17A276580C4000A2DEB /* Son+loadInitialize.h */,
+				1B4BE17B276580C4000A2DEB /* Son+loadInitialize.m */,
 			);
 			path = StudyRuntime;
 			sourceTree = "<group>";
@@ -134,6 +212,15 @@
 				1BE9629227610AEE0056406F /* StudyRuntimeUITestsLaunchTests.m */,
 			);
 			path = StudyRuntimeUITests;
+			sourceTree = "<group>";
+		};
+		1BE962AB2762F8CA0056406F /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				1BE962AC2762FA130056406F /* NSObject+HXKeyValueObserverRegistration.h */,
+				1BE962AD2762FA130056406F /* NSObject+HXKeyValueObserverRegistration.m */,
+			);
+			path = KVO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +353,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE962A42761933C0056406F /* Son.m in Sources */,
+				1B4BE17227650291000A2DEB /* APIUse+Associate.m in Sources */,
+				1BE962AE2762FA130056406F /* NSObject+HXKeyValueObserverRegistration.m in Sources */,
 				1BE9627227610AEC0056406F /* ViewController.m in Sources */,
 				1BE9626C27610AEC0056406F /* AppDelegate.m in Sources */,
+				1B4BE16C2764F413000A2DEB /* APIUse.m in Sources */,
+				1B94C25B276B8090009835CC /* KVC.m in Sources */,
+				1BE962AA2762E3640056406F /* NSObject+Love.m in Sources */,
 				1BE9627D27610AEE0056406F /* main.m in Sources */,
+				1B4BE17627657B39000A2DEB /* UIViewController+Swizzling.m in Sources */,
+				1BE962A72762DFEF0056406F /* Animal.m in Sources */,
 				1BE9626F27610AEC0056406F /* SceneDelegate.m in Sources */,
+				1B4BE17C276580C4000A2DEB /* Son+loadInitialize.m in Sources */,
+				1B4BE179276580B3000A2DEB /* Father+loadInitialize.m in Sources */,
+				1BE962A1276193330056406F /* Father.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
